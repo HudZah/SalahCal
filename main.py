@@ -14,7 +14,7 @@ def get_latitude_longitude():
 
 
 def get_data(latitude, longitude, method):
-    url = f"http://api.aladhan.com/v1/calendar/2023?latitude={latitude}&longitude={longitude}&method=2"
+    url = f"http://api.aladhan.com/v1/calendar/2024?latitude={latitude}&longitude={longitude}&method=2"
 
     response = requests.get(url)
     data = response.json()
